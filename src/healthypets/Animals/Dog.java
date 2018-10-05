@@ -4,7 +4,7 @@ import healthypets.Animals.Base.IAnimalFood;
 import healthypets.Animals.Base.Pets;
 import javax.swing.JOptionPane;
 
-public class Dog extends Pets  implements IAnimalFood {
+public class Dog extends Pets implements IAnimalFood {
     
     public Dog(String name, int weight)
     {

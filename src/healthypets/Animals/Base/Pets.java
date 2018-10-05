@@ -2,7 +2,7 @@ package healthypets.Animals.Base;
 
 import healthypets.Helper;
 
-public abstract class Pets 
+public abstract class Pets implements IAnimalFood 
 {
     //abstrakt klass som bas för djuren
     

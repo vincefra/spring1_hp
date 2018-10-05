@@ -64,22 +64,8 @@ public class HealthyPets
         for (Pets pet : petsToFeed) 
             if (pet.getName().equalsIgnoreCase(name))
             {
-                if (pet instanceof Dog) 
-                {
-                    Dog dog = (Dog)pet;
-                    dog.printFood();
-                }
-                else if (pet instanceof Cat) 
-                {
-                    Cat cat = (Cat)pet;
-                    cat.printFood();
-                }
-                else if (pet instanceof Snake) //säkerhets if, annars bara else
-                {
-                    Snake snake = (Snake)pet;
-                    snake.printFood();
-                }
-                
+                //polymorfism, samma method men olika output
+                pet.printFood();
                 return true;
             }
         
